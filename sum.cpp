@@ -1,11 +1,5 @@
-int sum(int n) 
-	{
-	int i;
-	int res=0;
-	for(i=1; i<=n; i++) 
-	{
-		res=res+i;
-	}
+int sum(int n) {
+	return (n+1)*n/2;
 	return res;
 }
 
